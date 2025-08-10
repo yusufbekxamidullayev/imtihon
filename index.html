@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header class="bg-[#BB2339] ">
+        <div class="container mx-auto px-[40px]">
+            <div class=" flex items-center justify-between py-[20px]">
+                <div>
+                    <img src="/assets/images/logo.png" alt="logo">
+                </div>
+                <div>
+                    <ul class="hidden  sm:hidden md:hidden lg:flex items-center justify-between gap-[50px] xl:flex  ">
+                        <li class="text-[white] text-[18px]">
+                            <a href="">Home</a>
+                        </li>
+                        <li class="text-[white] text-[18px]">
+                            <a href="">News</a>
+                        </li>
+                        <li class="text-[white] text-[18px]">
+                            <a href="">About Us</a>
+                        </li>
+                        <li class="text-[white] text-[18px]">
+                            <a href="">Contact Us</a>
+                        </li>
+                        <li
+                            class="text-[white] hover:text-[#BB2339] hover:bg-[white] text-[18px] text-center rounded-[20px] p-[5px] border-1 border-white w-[120px]  ">
+                            <a href="">Log in</a>
+                        </li>
+                    </ul>
+                    <button id="toogle" class="block sm:block md:block lg:hidden xl:hidden">
+                        <img width="30px" src="./assets/images/menu_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg"
+                            alt="menu">
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <ul id="page"
+        class="flex flex-col bg-[#BB2339] text-[white] w-screen h-screen items-center justify-center gap-[40px] fixed top-0">
+        <li class=" border-2 border-white max-w-[200px] w-full h-[35px] text-center rounded-[20px]">
+            <a href="">Home</a>
+        </li>
+        <li class="border-2 border-white max-w-[200px] w-full h-[35px] text-center rounded-[20px]">
+            <a href="">News</a>
+        </li>
+        <li class="border-2 border-white max-w-[200px] w-full h-[35px] text-center rounded-[20px]">
+            <a href="">About Us</a>
+        </li>
+        <li class="border-2 border-white max-w-[200px] w-full h-[35px] text-center rounded-[20px]">
+            <a href="">Contact Us</a>
+        </li>
+        <li class="border-2 border-white max-w-[200px] w-full h-[35px] text-center rounded-[20px]">
+            <a href="">Log in</a>
+        </li>
+        <svg id="yopish" class="absolute top-20 right-20" xmlns="http://www.w3.org/2000/svg" height="24px"
+            viewBox="0 -960 960 960" width="24px" fill="#ffff">
+            <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+        </svg>
+
+
+    </ul>
+
+    <main>
+        <section class="pt-[150px] pr-[100px] bg-[#BB2339]">
+            <div class="container mx-auto">
+                <div
+                    class="flex flex-col items-center ml-[20px] xl:pl-[100px] sm:flex-col md:flex-col lg:grid grid-cols-2 xl:grid grid-cols-2 ">
+                    <div>
+                        <p class="text-[white] text-[25px] font-bold pb-[30px]">Chase the new Flavour</p>
+                        <h1
+                            class="text-[white] font-bold text-[45px]  sm:text-[62px] md:text-[70px] lg:text-[77px] xl:text-[84px]">
+                            The Key To <br> Fine Dining</h1>
+                        <p
+                            class="text-[white] text-[18px] pt-[30px] sm:text-[19px] md:text-[19px] lg:text-[20px] xl:text-[20px]">
+                            Sit tellus lobortis sed senectus vivamus molestie. <br> Condimentum volutpat morbi facilisis
+                            quam scelerisque <br> sapien. Et,penatibus aliquamamet tellus </p>
+                        <button
+                            class="w-[190px] border-2 border-[white] h-[50px] rounded-[25px] text-[white] mt-[40px] mb-[200px] hover:bg-[white] hover:text-[brown]">
+                            <a href="">Explore Menu</a>
+                        </button>
+                    </div>
+                    <div>
+                        <img class="max-w-[340px] mt-[-100px] pl-[40px] pb-[50px] sm:max-w-[450px] md:max-w-[500px] lg:max-w-[500px]"
+                            src="/assets/images/shashlik.png" alt="shashlik">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-[#F8F8F8] pb-[100px]">
+            <div class="container mx-auto">
+                <h1 class="pt-[100px] text-[brown] text-[45px] font-bold ml-[50px]">Popular Dishes</h1>
+                <div
+                    class="flex flex-col items-center justify-center sm:flex-col md:grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                    <div class="max-w-[230px] w-full item  bg-[white] mt-[30px] ml-[50px] ">
+                        <div>
+                            <img src="./assets/images/pitsa.png" alt="pitsa">
+                        </div>
+                        <div class="flex flex-col items-center ">
+                            <p class="text-[black] text-[18px] pb-[7px]  font-bold ">Barbecue Shish Kebab</p>
+                            <p class="text-[black] text-[18px] font-bold">Shashlik Skewer</p>
+                            <img class="pt-[10px]" width="140px" src="/assets/images/star.webp" alt="star">
+                            <p class="text-[21px] text-[#BB2339] font-bold pt-[15px] pb-[15px]">$12.00</p>
+                        </div>
+                    </div>
+                    <div class="max-w-[230px] w-full item  bg-[white] mt-[30px] ml-[50px]">
+                        <div>
+                            <img src="./assets/images/free.png" alt="pitsa">
+                        </div>
+                        <div class="flex flex-col items-center ">
+                            <p class="text-[black] text-[18px] pb-[7px]  font-bold ">Barbecue Shish Kebab</p>
+                            <p class="text-[black] text-[18px] font-bold">Shashlik Skewer</p>
+                            <img class="pt-[10px]" width="140px" src="/assets/images/star.webp" alt="star">
+                            <p class="text-[21px] text-[#BB2339] font-bold pt-[15px] pb-[15px]">$12.00</p>
+                        </div>
+                    </div>
+                    <div class="max-w-[230px] w-full item  bg-[white] mt-[30px] ml-[50px]">
+                        <div>
+                            <img src="/assets/images/shashlik2.png" alt="pitsa">
+                        </div>
+                        <div class="flex flex-col items-center ">
+                            <p class="text-[black] text-[18px] pb-[7px]  font-bold ">Barbecue Shish Kebab</p>
+                            <p class="text-[black] text-[18px] font-bold">Shashlik Skewer</p>
+                            <img class="pt-[10px]" width="140px" src="/assets/images/star.webp" alt="star">
+                            <p class="text-[21px] text-[#BB2339] font-bold pt-[15px] pb-[15px]">$12.00</p>
+                        </div>
+                    </div>
+                    <div class="max-w-[230px] w-full item  bg-[white] mt-[30px] ml-[50px]">
+                        <div>
+                            <img src="./assets/images/burger.png" alt="pitsa">
+                        </div>
+                        <div class="flex flex-col items-center ">
+                            <p class="text-[black] text-[18px] pb-[7px]  font-bold ">Barbecue Shish Kebab</p>
+                            <p class="text-[black] text-[18px] font-bold">Shashlik Skewer</p>
+                            <img class="pt-[10px]" width="140px" src="/assets/images/star.webp" alt="star">
+                            <p class="text-[21px] text-[#BB2339] font-bold pt-[15px] pb-[15px]">$12.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </section>
+        <section class="pb-[100px]">
+            <div class="container mx-auto px-[50px]">
+                <h1 class="text-[#BB2339] text-[48px] font-bold pt-[100px] pb-[50px]">Our Regular Menu Pack</h1>
+                <div>
+                   <ul class=" overflow-auto flex items-center gap-[10px] sm:overflow-auto md:overflow-auto lg:overflow-auto xl:flex items-center ">
+                    <li class="flex-shrink-0 border-1 border-[#BB2339] text-[#242424] hover:text-[white] max-w-[100px] w-full rounded-[20px] p-[5px] text-center  hover:bg-[#BB2339] ">
+                        <a class="text-[16px]  hover:text-[white]" href="">All</a>
+                    </li>
+                    <li class=" flex-shrink-0 border-1 border-[#BB2339] text-[#242424] hover:text-[white] max-w-[130px] w-full rounded-[20px] p-[5px] text-center  hover:bg-[#BB2339] ">
+                    <a class="text-[16px]  hover:bg-[#BB2339] hover:text-[white] " href="">Shawarma</a>
+                    </li>
+                    <li class="flex-shrink-0 border-1 border-[#BB2339] text-[#242424] hover:text-[white] max-w-[140px] w-full rounded-[20px] p-[5px] text-center  hover:bg-[#BB2339] ">
+                    <a class="text-[16px]  hover:bg-[#BB2339] hover:text-[white] " href="">Turk
+                        Kebab</a>
+                    </li>
+                    <li class="flex-shrink-0 border-1 border-[#BB2339] text-[#242424] hover:text-[white] max-w-[200px] w-full rounded-[20px] p-[5px] text-center  hover:bg-[#BB2339] ">
+                        <a class="text-[16px]  hover:bg-[#BB2339] hover:text-[white] " href="">Hamburger
+                        Kebab</a>
+                    </li>
+                    <li class="flex-shrink-0 border-1 border-[#BB2339] text-[#242424] hover:text-[white] max-w-[150px] w-full rounded-[20px] p-[5px] text-center  hover:bg-[#BB2339] ">
+                        <a class="text-[16px] hover:bg-[#BB2339] hover:text-[white] " href="">Doner
+                        kebab</a>
+                    </li>
+                    <li class="flex-shrink-0 border-1 border-[#BB2339] text-[#242424] hover:text-[white] max-w-[150px] w-full rounded-[20px] p-[5px] text-center  hover:bg-[#BB2339] ">
+                        <a class="text-[16px]  hover:bg-[#BB2339] hover:text-[white] " href="">Shish
+                        kebab</a>
+                    </li>
+                    <li class="flex-shrink-0 border-1 border-[#BB2339] text-[#242424] hover:text-[white] max-w-[200px] w-full rounded-[20px] p-[5px] text-center  hover:bg-[#BB2339] ">
+                        <a class="text-[16px] hover:bg-[#BB2339] hover:text-[white] " href="">French fries
+                        Pizza</a>
+                    </li>
+                    <li class="flex-shrink-0 border-1 border-[#BB2339] text-[#242424] hover:text-[white] max-w-[120px] w-full rounded-[20px] p-[5px] text-center  hover:bg-[#BB2339] ">
+                        <a class="text-[16px]  hover:bg-[#BB2339] hover:text-[white] " href="">Desserts</a>
+                    </li>
+                    </ul>
+                </div>
+                <div class="pt-[50px] grid grid-cols-1 gap-[15px] sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                    <div class="max-w-[300px] border-1 border-[#2424241A] rounded-[14px] ">
+                        <div>
+                            <img class="transform hover:scale-110 transition-transform duration-300 ease" src="/assets/images/jaz.png" alt="jaz">
+                        </div>
+                        <div>
+                            <p class="pt-[10px] text-center text-[18px] text-[#242424]">Barbecue Shish kebab Shashlik <br> Skewer</p>
+                            <p class="pb-[30px] pt-[20px] text-[#BB2339] text-[24px] text-center">$12.00</p>
+                        </div>
+                    </div>
+                    <div class="max-w-[300px] border-1 border-[#2424241A] rounded-[14px]">
+                        <div>
+                            <img class="transform hover:scale-110 transition-transform duration-300 ease" src="/assets/images/free.png" alt="jaz">
+                        </div>
+                        <div>
+                            <p class="pt-[10px] text-center text-[18px] text-[#242424]">Barbecue Shish kebab Shashlik <br> Skewer</p>
+                            <p class="pb-[30px] pt-[20px] text-[#BB2339] text-[24px] text-center">$12.00</p>
+                        </div>
+                    </div>
+                    <div class="max-w-[300px] border-1 border-[#2424241A] rounded-[14px]">
+                        <div>
+                            <img class="transform hover:scale-110 transition-transform duration-300 ease" src="/assets/images/lavash.png" alt="lavash">
+                        </div>
+                        <div>
+                            <p class="pt-[10px] text-center text-[18px] text-[#242424]">Barbecue Shish kebab Shashlik <br> Skewer</p>
+                            <p class="pb-[30px] pt-[20px] text-[#BB2339] text-[24px] text-center">$12.00</p>
+                        </div>
+                    </div>
+                    <div class="max-w-[300px] border-1 border-[#2424241A] rounded-[14px]">
+                        <div>
+                            <img class="transform hover:scale-110 transition-transform duration-300 ease" src="/assets/images/bishteyks.png" alt="jaz">
+                        </div>
+                        <div>
+                            <p class="pt-[10px] text-center text-[18px] text-[#242424]">Barbecue Shish kebab Shashlik <br> Skewer</p>
+                            <p class="pb-[30px] pt-[20px] text-[#BB2339] text-[24px] text-center">$12.00</p>
+                        </div>
+                    </div>
+                    <div class="max-w-[300px] border-1 border-[#2424241A] rounded-[14px]">
+                        <div>
+                            <img class="transform hover:scale-110 transition-transform duration-300 ease" src="/assets/images/pitsa.png" alt="jaz">
+                        </div>
+                        <div>
+                            <p class="pt-[10px] text-center text-[18px] text-[#242424]">Barbecue Shish kebab Shashlik <br> Skewer</p>
+                            <p class="pb-[30px] pt-[20px] text-[#BB2339] text-[24px] text-center">$12.00</p>
+                        </div>
+                    </div>
+                    <div class="max-w-[300px] border-1 border-[#2424241A] rounded-[14px]">
+                        <div>
+                            <img class="transform hover:scale-110 transition-transform duration-300 ease" src="/assets/images/sandwich.png" alt="jaz">
+                        </div>
+                        <div>
+                            <p class="pt-[10px] text-center text-[18px] text-[#242424]">Barbecue Shish kebab Shashlik <br> Skewer</p>
+                            <p class="pb-[30px] pt-[20px] text-[#BB2339] text-[24px] text-center">$12.00</p>
+                        </div>
+                    </div>
+                    <div class="max-w-[300px] border-1 border-[#2424241A] rounded-[14px]">
+                        <div>
+                            <img class="transform hover:scale-110 transition-transform duration-300 ease" src="/assets/images/donar.png" alt="lavash">
+                        </div>
+                        <div>
+                            <p class="pt-[10px] text-center text-[18px] text-[#242424]">Barbecue Shish kebab Shashlik <br> Skewer</p>
+                            <p class="pb-[30px] pt-[20px] text-[#BB2339] text-[24px] text-center">$12.00</p>
+                        </div>
+                    </div>
+                    <div class="max-w-[300px] border-1 border-[#2424241A] rounded-[14px]">
+                        <div>
+                            <img class="transform hover:scale-110 transition-transform duration-300 ease" src="/assets/images/burger.png" alt="jaz">
+                        </div>
+                        <div>
+                            <p class="pt-[10px] text-center text-[18px] text-[#242424]">Barbecue Shish kebab Shashlik <br> Skewer</p>
+                            <p class="pb-[30px] pt-[20px] text-[#BB2339] text-[24px] text-center">$12.00</p>
+                        </div>
+                    </div>
+                    <div class="max-w-[300px] border-1 border-[#2424241A] rounded-[14px]">
+                        <div>
+                            <img class="transform hover:scale-110 transition-transform duration-300 ease" src="/assets/images/hot dog.png" alt="jaz">
+                        </div>
+                        <div>
+                            <p class="pt-[10px] text-center text-[18px] text-[#242424]">Barbecue Shish kebab Shashlik <br> Skewer</p>
+                            <p class="pb-[30px] pt-[20px] text-[#BB2339] text-[24px] text-center">$12.00</p>
+                        </div>
+                    </div>
+                    <div class="max-w-[300px] border-1 border-[#2424241A] rounded-[14px]">
+                        <div>
+                            <img class="transform hover:scale-110 transition-transform duration-300 ease" src="/assets/images/jaz.png" alt="jaz">
+                        </div>
+                        <div>
+                            <p class="pt-[10px] text-center text-[18px] text-[#242424]">Barbecue Shish kebab Shashlik <br> Skewer</p>
+                            <p class="pb-[30px] pt-[20px] text-[#BB2339] text-[24px] text-center">$12.00</p>
+                        </div>
+                    </div>
+                    <div class="max-w-[300px] border-1 border-[#2424241A] rounded-[14px]">
+                        <div>
+                            <img class="transform hover:scale-110 transition-transform duration-300 ease" src="/assets/images/free.png" alt="lavash">
+                        </div>
+                        <div>
+                            <p class="pt-[10px] text-center text-[18px] text-[#242424]">Barbecue Shish kebab Shashlik <br> Skewer</p>
+                            <p class="pb-[30px] pt-[20px] text-[#BB2339] text-[24px] text-center">$12.00</p>
+                        </div>
+                    </div>
+                    <div class="max-w-[300px] border-1 border-[#2424241A] rounded-[14px]">
+                        <div>
+                            <img class="transform hover:scale-110 transition-transform duration-300 ease" src="/assets/images/bishteyks.png" alt="jaz">
+                        </div>
+                        <div>
+                            <p class="pt-[10px] text-center text-[18px] text-[#242424]">Barbecue Shish kebab Shashlik <br> Skewer</p>
+                            <p class="pb-[30px] pt-[20px] text-[#BB2339] text-[24px] text-center">$12.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer></footer>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
