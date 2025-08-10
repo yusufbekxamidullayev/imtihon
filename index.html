@@ -10,66 +10,70 @@
 </head>
 
 <body>
-    <header class="bg-[#BB2339] ">
-        <div class="container mx-auto px-[40px]">
-            <div class=" flex items-center justify-between py-[20px]">
-                <div>
-                    <a href=""><img src="/assets/images/logo.png" alt="logo"></a>
+        <header class="bg-[#BB2339] ">
+            <div class="container mx-auto px-[40px]">
+                <div class=" flex items-center justify-between py-[20px]">
+                    <div>
+                        <img src="/assets/images/logo.png" alt="logo">
+                    </div>
+                    <div>
+                        <ul class="hidden  sm:hidden md:hidden lg:flex items-center justify-between gap-[50px] xl:flex  ">
+                            <li class="text-[white] text-[18px]">
+                                <a href="/index.html">Home</a>
+                            </li>
+                            <li class="text-[white] text-[18px]">
+                                <a href="/pages/menu.html">Menu</a>
+                            </li>
+                            <li class="text-[white] text-[18px]">
+                                <a href="./news.html">News</a>
+                            </li>
+                            <li class="text-[white] text-[18px]">
+                                <a href="/pages/about.html">About Us</a>
+                            </li>
+                            <li class="text-[white] text-[18px]">
+                                <a href="/pages/contact.html">Contact Us</a>
+                            </li>
+                            <li
+                                class="text-[white] hover:text-[#BB2339] hover:bg-[white] text-[18px] text-center rounded-[20px] p-[5px] border-1 border-white w-[120px]  ">
+                                <a href="">Log in</a>
+                            </li>
+                        </ul>
+                        <button id="toogle" class="block sm:block md:block lg:hidden xl:hidden">
+                            <img width="30px" src="/assets/images/menu_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="menu">
+                        </button>
+                    </div>
+        
                 </div>
-                <div>
-                    <ul class="hidden  sm:hidden md:hidden lg:flex items-center justify-between gap-[50px] xl:flex  ">
-                        <li class="text-[white] text-[18px]">
-                            <a href="">Menu</a>
-                        </li>
-                        <li class="text-[white] text-[18px]">
-                            <a href="./pages/news.html">News</a>
-                        </li>
-                        <li class="text-[white] text-[18px]">
-                            <a href="/pages/about.html">About Us</a>
-                        </li>
-                        <li class="text-[white] text-[18px]">
-                            <a href="">Contact Us</a>
-                        </li>
-                        <li
-                            class="text-[white] hover:text-[#BB2339] hover:bg-[white] text-[18px] text-center rounded-[20px] p-[5px] border-1 border-white w-[120px]  ">
-                            <a href="">Log in</a>
-                        </li>
-                    </ul>
-                    <button id="toogle" class="block sm:block md:block lg:hidden xl:hidden">
-                        <img width="30px" src="./assets/images/menu_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg"
-                            alt="menu">
-                    </button>
-                </div>
-
             </div>
-        </div>
-    </header>
-
-    <ul id="page"
-        class="flex flex-col bg-[#BB2339] text-[white] w-screen h-screen items-center justify-center gap-[40px] fixed top-0">
-        <li class=" border-2 border-white max-w-[200px] w-full h-[35px] text-center rounded-[20px]">
-            <a href="./index.html">Home</a>
-        </li>
-        <li class="border-2 border-white max-w-[200px] w-full h-[35px] text-center rounded-[20px]">
-            <a href="/pages/news.html">News</a>
-        </li>
-        <li class="border-2 border-white max-w-[200px] w-full h-[35px] text-center rounded-[20px]">
-            <a href="/pages/about.html">About Us</a>
-        </li>
-        <li class="border-2 border-white max-w-[200px] w-full h-[35px] text-center rounded-[20px]">
-            <a href="">Contact Us</a>
-        </li>
-        <li class="border-2 border-white max-w-[200px] w-full h-[35px] text-center rounded-[20px]">
-            <a href="">Log in</a>
-        </li>
-        <svg id="yopish" class="absolute top-20 right-20" xmlns="http://www.w3.org/2000/svg" height="24px"
-            viewBox="0 -960 960 960" width="24px" fill="#ffff">
-            <path
-                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
-        </svg>
-
-
-    </ul>
+        </header>
+        
+        <ul id="page"
+            class="flex flex-col bg-[#BB2339] text-[white] w-screen h-screen items-center justify-center gap-[40px] fixed top-0">
+            <li class=" border-2 border-white max-w-[200px] w-full h-[35px] text-center rounded-[20px]">
+                <a href="/index.html">Home</a>
+            </li>
+            <li class=" border-2 border-white max-w-[200px] w-full h-[35px] text-center rounded-[20px]">
+                <a href="/pages/menu.html">Menu</a>
+            </li>
+            <li class="border-2 border-white max-w-[200px] w-full h-[35px] text-center rounded-[20px]">
+                <a href="./news.html">News</a>
+            </li>
+            <li class="border-2 border-white max-w-[200px] w-full h-[35px] text-center rounded-[20px]">
+                <a href="/pages/about.html">About Us</a>
+            </li>
+            <li class="border-2 border-white max-w-[200px] w-full h-[35px] text-center rounded-[20px]">
+                <a href="/pages/contact.html">Contact Us</a>
+            </li>
+            <li class="border-2 border-white max-w-[200px] w-full h-[35px] text-center rounded-[20px]">
+                <a href="">Log in</a>
+            </li>
+            <svg id="yopish" class="absolute top-10 right-10" xmlns="http://www.w3.org/2000/svg" height="24px"
+                viewBox="0 -960 960 960" width="24px" fill="#ffff">
+                <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+            </svg>
+        
+        
+        </ul>
 
     <main>
         <section class="pt-[150px] pr-[100px] bg-[#BB2339]">
