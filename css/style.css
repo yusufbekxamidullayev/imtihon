@@ -1,3 +1,6 @@
+*{
+    font-family: "Roboto" , sans-serif;
+}
 #page {
     transform: translateX(-100%);
     transition: 0.3s;
@@ -5,4 +8,7 @@
 
 .page-hide {
     transform: translateX(0%) !important;
+}
+.page-durition{
+    transition: 0.5s;
 }
